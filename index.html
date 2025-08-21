@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="avatar">
+                <i class="fas fa-user"></i>
+            </div>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email ID">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </div>
+
+        <div id="horrorSection" style="display: none; text-align: center; color: white;">
+            <p id="jairunHorror">Jairun Horror</p>
+            <div id="bacaCeritanyaJairun" class="bacaCeritanya">Baca Ceritanya</div>
+            <p id="bayanganJendela">Bayangan di Balik Jendela</p>
+            <div id="bacaCeritanyaBayangan" class="bacaCeritanya">Baca Ceritanya</div>
+        </div>
+
+        <div id="storySection" style="display: none; text-align: center; color: white;">
+            <p>PEMBUAT CERITA = AKILALTAF5</p>
+            <p id="storyText">
+                Kisah ini bukan karanganku. Aku cuma copas dari sebuah forum. Cuma aku benerin dikit tulisannya.<br><br>
+                Karena ketika aku baca kisah ini, aku jadi ingat Violet dan dokter-dokternya. Katanya sih ini kisah nyata. Mari ikuti cerita ini 😊<br><br>
+                ~o~<br><br>
+                Saya masih ingat, waktu itu hari Minggu siang. Jatah kami masuk stase forensik adalah 5 minggu dan saat itu saya sudah di minggu ke-4.<br><br>
+                Saya sedang bersantai di kamar kost dan handphone berdering. Ada chat masuk dari grup.<br><br>
+                Teman saya yang sedang jadwal piket hari itu mengabarkan kalau ada mayat yang baru datang. Perempuan dengan usia sekitar akhir 30an.<br><br>
+                Rencana mau autopsi dalam, karena ini kasus pembunuhan. Mayat ditemukan di rumah kosong milik keluarga dengan banyak luka tusukan dan tanpa pakaian.<br><br>
+                Semangat sekali saya karena sudah hampir 4 minggu belum ada satupun dapat autopsi dalam. Konsulen pun sudah dikabari, beliau bilang baru bisa datang malam hari, jadi teman saya yang piket waktu itu hanya melakukan autopsi luar saja.<br><br>
+                Singkatnya, konsulen datang pukul 7 malam. Kami sudah berkumpul lengkap. Autopsi dimulai.<br><br>
+                Itu adalah pertama kali saya melihat darah dalam jumlah banyak dan bau anyirnya yang sangat kuat sekali. Kalau lihat sewaktu ikut operasi sih tidak separah ini baunya 😊.
+            </p>
+            <div id="navigationButtons">
+                <div id="lanjut">Lanjut</div>
+                <div id="kembali">Kembali</div>
+            </div>
+        </div>
+
+        <div id="lanjutSection" style="display: none; text-align: center; color: white;">
+        <p>PEMBUAT CERITA = AKILALTAF5</p>
+            <p id="lanjutText">
+                salah satu anak minggu 1, sebut aja S.<br><br>
+                C : Dek, kenapa diem terus dari tadi? Ada yang kamu liat ya di sini?<br><br>
+                S : Ada, Kak. Yang Kakak omongin tuh datang ke sini.<br><br>
+                Muka si S ini pucat asli.<br><br>
+                C : Hah? Serius lu?<br><br>
+                S : Iya, Kak, serius. Itu dia ngeliatin dari tadi. Kakak sih, ngomongin dia terus. Jadi dia dateng. Eh ehh, pergi dia dah.<br><br>
+                Kami yang awalnya lagi ketawa-tawa, langsung terdiam, dan saling pandang. Anak ini beneran bisa lihat ya mahluk tak kasat mata? Dia bisa lihat hantu dari orang yang jenazahnya pernah kami autopsi?<br><br>
+                Terus S bicara lagi :<br><br>
+                S : Perempuan kan, Kak? Rambutnya pendek? Kulitnya putih? Agak gendut? Tingginya segini? Gak pake baju?<br><br>
+                Skak! Kami semua terdiam.<br><br>
+                Bukannnya apa, tapi si S ini :<br><br>
+                - TIDAK IKUT AUTOPSI<br><br>
+                - BELUM MASUK GRUP CHAT KAMI JADI DIA TIDAK MELIHAT FOTO FOTO AUTOPSI<br><br>
+                - BELUM IKUT MEMBUAT LAPORAN AUTOPSI. TIDAK ADA SEORANGPUN DARI KAMI YANG MENCERITAKAN INI KE ANAK MINGGU 1.<br><br>
+                Hehhh. Memang si S ini. Buat bulu kuduk kami berdiri. Lalu dia melanjutkan :<br><br>
+                S : Tadi malam dia ke kamarku, Kak. Minta tolong sambil nangis-nangis karena katanya cuma aku yang bisa lihat dia. Padahal kemarin kan aku cuma bentar duduk di sini. Dia bilang, waktu abis autopsi itu dia ke kamar kakak semua satu-satu tapi nggak ada yang bisa lihat dia katanya.
+            </p>
+            <div id="kembaliText">Kembali</div>
+        </div>
+
+        <div id="bayanganSection" style="display: none; text-align: center; color: white;">
+            <p>PEMBUAT CERITA = DANI</p>
+            <p id="bayanganText">
+                Malam itu, hujan turun deras. Dani baru saja pindah ke rumah tua peninggalan neneknya. Rumah itu besar, tapi terasa kosong, sunyi, dan… dingin. Saat ia menyalakan lampu ruang tamu, sesuatu di balik jendela kamar atas menarik perhatiannya. Sebuah bayangan gelap, tak berbentuk, bergerak perlahan.<br><br>
+                Awalnya Dani pikir itu imajinasinya, tapi setiap malam bayangan itu muncul, semakin lama semakin dekat dengan jendela kamar. Suara langkah berat terdengar di lantai atas, padahal ia tinggal sendirian.<br><br>
+                Suatu malam, ia memberanikan diri naik ke lantai atas, mengikuti suara itu. Di ujung lorong, di depan kamar yang selalu terkunci, bayangan itu menunggu. Bayangan itu… menatapnya dengan mata kosong, dan suara seram berbisik: “Kenapa kamu masuk ke rumahku?”<br><br>
+                Dani ingin lari, tapi kakinya terasa tertahan. Lampu padam seketika. Saat cahaya kembali, bayangan itu sudah berdiri di belakangnya, menempelkan tangan dingin di bahunya…<br><br>
+                Hingga pagi, tetangga menemukan rumah itu kosong. Hanya ada satu catatan di meja: “Jangan pernah buka jendela malam hari.”
+            </p>
+            <div id="kembaliKeMenu" class="kembali">Kembali</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

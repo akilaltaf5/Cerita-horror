@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #c2e59c, #64b3f4);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 51, 102, 0.8);
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5em;
+    border: 3px solid white;
+    transition: opacity 0.5s;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+    transition: opacity 0.5s;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    transition: opacity 0.5s;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.input-box i {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.input-box input:focus {
+    outline: none;
+    border-bottom: 2px solid #ddd;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 15px;
+    transition: opacity 0.5s;
+}
+
+.remember-forgot label input {
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px 20px;
+    background: #003366;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.login-button:hover {
+    background: #0056b3;
+}
+
+#horrorSection {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#jairunHorror {
+    font-size: 2em;
+    color: red;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.bacaCeritanya {
+    background-color: rgba(0, 51, 102, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.bacaCeritanya:hover {
+    background-color: rgba(0, 51, 102, 1);
+}
+
+#storySection {
+    text-align: center;
+    color: white;
+    display: none; /* Initially hidden */
+}
+
+#navigationButtons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#lanjut, #kembali {
+    background-color: rgba(0, 51, 102, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+#lanjut:hover, #kembali:hover {
+    background-color: rgba(0, 51, 102, 1);
+}
+
+#lanjutSection {
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+#lanjutText, #kembaliText {
+    background-color: rgba(0, 51, 102, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+#lanjutText:hover, #kembaliText:hover {
+    background-color: rgba(0, 51, 102, 1);
+}
+
+#bayanganSection {
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.kembali {
+    background-color: rgba(0, 51, 102, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.kembali:hover {
+    background-color: rgba(0, 51, 102, 1);
+}
